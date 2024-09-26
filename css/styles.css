@@ -48,7 +48,7 @@ body{
   .container-header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1158px;
@@ -74,6 +74,7 @@ body{
     letter-spacing: 3%;
     color: #2e2f42;
     text-decoration: none;
+    margin-right: 76px;
   }
   .title-web{
     color: #4d5ae5;
@@ -81,12 +82,26 @@ body{
   .title-studio{
     color: #2e2f42;
   }
-  
+  .nav{
+    display:flex;
+    align-items: center; 
+      }
+
   .nav:hover,
   .nav:focus{
     color: #404bbf;
   }
+  .page-menu-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    
+  }
  
+  .nav-link{
+    padding: 24px 0;
+  } 
+
   .page-menu-list a{
     color: #2e2f42;
     font-weight: 500;
@@ -104,6 +119,10 @@ body{
     color: #404bbf;
   }
   
+  address{
+    display: flex;
+    gap:40px;
+  }
   .contact-us a{
     color: #2e2f42;
     font-weight: 400;
