@@ -259,13 +259,14 @@ body{
     letter-spacing: 2%;
     color: #2e2f42;
     padding: 120px 0;
+    
   }
   .our-portfolio-cardset{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
     column-gap: 24px;
     row-gap: 48px;  
+    gap: 15;
   }
   .title-op{
     text-align: center;
@@ -297,10 +298,9 @@ body{
     color: #434455;
   }
   .our-portfolio-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 45px) / 4);
     list-style-type: none;
-    background-color: #ffffff;
-    border-radius: 0 0 4px 4px;
+   
 
   }
 
