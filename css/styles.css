@@ -29,12 +29,11 @@ body{
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: #434455;
-
-   
-  }
+    }
 
   .container {
     width: 1158px;
+    max-width: 1440px;
     align-items: center;
     margin: 0 auto;
     padding: 0 15px;
@@ -52,7 +51,7 @@ body{
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0 15px;
-    width: 1440px;
+    max-width: 1158px;
 
 
   }
@@ -294,7 +293,7 @@ body{
     color:#ffffff;
     height: 312px;
     padding: 100px 0;
-    width: 1440px;
+   
   
   }
   .logo-2 {
