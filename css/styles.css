@@ -245,7 +245,7 @@ body {
   padding:32px 0;
 }
 
-.our-team-member{
+.our-team .our-team-member{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5em;
@@ -254,7 +254,7 @@ body {
   margin-bottom:8px;
 }
 
-.our-team-member-department{
+.our-team .our-team-member-department{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
@@ -275,6 +275,9 @@ body {
   letter-spacing: 2%;
   color: #2e2f42;
   padding: 120px 0;
+}
+.our-portfolio .container{
+  padding: 32px 0
 }
 .our-portfolio-title {
   text-align: center;
@@ -308,7 +311,7 @@ body {
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: 2%;
-  margin-bottom: 8px 0;
+  margin-bottom: 8px;
 }
 .text {
   font-weight: 400;
@@ -323,7 +326,8 @@ body {
   height: 312px;
   padding: 100px 0;
 }
-.logo-2 {
+
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -340,11 +344,12 @@ body {
 .studio-title {
   color: #f4f4fd;
 }
-.footer-sec p {
+.footer-text{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
   max-width: 264px;
   color: #f4f4fd;
+  max-width: 264px'
 }
