@@ -136,8 +136,8 @@ body {
   padding: 24px 0;
  
 }
-.contact-list-item .link:hover,
-.contact-list-item .link:focus {
+.contact-list-item .nav-link:hover,
+.contact-list-item .nav-link:focus {
   color: #404bbf;
 }
 
