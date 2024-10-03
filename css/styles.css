@@ -221,57 +221,50 @@ body {
 
 }
 
-.our-team {
-  background-color: #f4f4fd;
-  padding: 120px 0;
+.our-team{
+  background-color: #F4F4FD;
 }
-
-.our-team-title {
+.our-team-title{
   margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
-.our-team-cardset {
+.our-team-cardset{
   display: flex;
   gap: 24px;
+  align-items: center;
+  text-align: center;
 }
-
-.our-team-cardset .our-portfolio-item {
+.our-team h2{
+  color: #2E2F42;
+  font-weight:700px;
+  font-size:36px;
+  line-height:2.5em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.our-team-item{
   width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 72px) / 4);
+  list-style-type: none;
   background-color: #ffffff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
-
-.our-team__container {
+.our-team-member-department{
+text-align: center;
+}
+.our-team img{
+  width:264px;
+  height:260px;
+}
+.staff{
   padding: 32px 0;
 }
 
-.our-team-cardset .our-team-member {
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
+.section-our-team p{
+  font-weight:400;
+  font-size:16px;
+  line-height:1.5em;
+  letter-spacing: 2%;
 }
-
-.our-team-cardset .our-team-member-department {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
 
 .our-portfolio {
   font-weight: 700;
