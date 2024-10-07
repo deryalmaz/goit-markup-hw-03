@@ -96,10 +96,6 @@ body {
   color: #2e2f42;
 }
 
-.nav-header:hover,
-.nav-header:focus {
-  color: #404bbf;
-}
 .page-menu-list {
   display: flex;
   gap: 40px;
@@ -109,6 +105,10 @@ body {
   padding: 24px 0;
 }
 
+.page-menu-list :hover,
+.page-menu-list :focus {
+  color: #404bbf;
+}
 .page-menu-list a{
   color: #2e2f42;
   font-weight: 500;
@@ -119,15 +119,12 @@ body {
   
 }
 
-.page-menu-list-item .link:hover,
-.page-menu-list-item .link:focus {
-  color: #404bbf;
-}
-
 .contact {
   display: flex;
   gap: 40px;
 }
+
+ 
 .contact-list {
   display: flex;
   justify-content: center;
@@ -144,10 +141,10 @@ body {
   padding: 24px 0;
  
 }
-.contact-list-item .nav-link:hover,
-.contact-list-item .nav-link:focus {
+.contact-list-item :hover,
+.contact-list-item :focus {
   color: #404bbf;
-}
+} 
 
 .effective {
   background-color: #2e2f42;
